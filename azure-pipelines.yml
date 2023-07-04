@@ -1,0 +1,21 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- main
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+- task: OTSTask@2
+  inputs:
+    OTSService: 'OTS 10.5.3 SoFy'
+    teamspace: 'Initial Team Space'
+    project: 'Emerald'
+    branch: 'DEV'
+    repo: 'https://github.com/HCL-TECH-SOFTWARE/Emerald-One-Test-Studio-Tests'
+    filePath: 'Emeral_API_GuestCheckout/Logical/EmeraldAPIs.scm/React Store.scm/Add To Cart.gts'
+    ritEnv: 'Commerce React Store PRIVATE'
