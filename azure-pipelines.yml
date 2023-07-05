@@ -19,7 +19,7 @@ steps:
     repo: 'https://github.com/HCL-TECH-SOFTWARE/Emerald-One-Test-Studio-Tests.git'
     filePath: 'Emerald-UI-Tests/Emerald/Login Add Item & Checkout.testsuite'
     variables: 'hostname=commerce-preview.sbx0064.play.hclsofy.dev;port_num=443'
-    azureServer: 'https://dev.azure.com/stuartwalker0167'
+    azureServer: 'https://dev.azure.com/stuartwalker0167/OneTest Integration Demo'
     patToken: 'ahdyui6cpmq6cljhno3lrgbiw3r7qbhmvvq6s75fwch6sdvan72a'
     testPlanName: 'TestPlan1'
     testCaseName: 'Existing Customer Checkout Process'
