@@ -18,6 +18,7 @@ steps:
     branch: 'DEV'
     repo: 'https://github.com/HCL-TECH-SOFTWARE/Emerald-One-Test-Studio-Tests.git'
     filePath: 'Emeral_API_GuestCheckout/Logical/EmeraldAPIs.scm/React Store.scm/Add To Cart.gts'
+    ritEnv: 'Commerce React Store PRIVATE'
     azureServer: 'https://dev.azure.com/stuartwalker0167/OneTestIntegrationDemo'
     patToken: 't4hgurmort6kzr3c67lgmadief62xub3xslzxojgoygjy63owvsa'
     testPlanName: 'TestPlan1'
