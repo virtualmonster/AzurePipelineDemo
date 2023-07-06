@@ -12,7 +12,7 @@ pool:
 steps:
 - task: OTSTask@2
   inputs:
-    OTSService: 'OTS 10.5.3 SoFy'
+    OTSService: 'StuartOTS'
     teamspace: 'Initial Team Space'
     project: 'Emerald'
     branch: 'DEV'
