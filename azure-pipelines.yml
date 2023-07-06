@@ -19,7 +19,7 @@ steps:
     repo: 'https://github.com/HCL-TECH-SOFTWARE/Emerald-One-Test-Studio-Tests.git'
     filePath: 'Emeral_API_GuestCheckout/Logical/EmeraldAPIs.scm/React Store.scm/Add To Cart.gts'
     azureServer: 'https://dev.azure.com/stuartwalker0167/OneTestIntegrationDemo'
-    patToken: 'ahdyui6cpmq6cljhno3lrgbiw3r7qbhmvvq6s75fwch6sdvan72a'
+    patToken: '47ao33qr6z5xqamcugaaz6aygffslvc6tc7fuaqvha3c2izl7koq'
     testPlanName: 'TestPlan1'
     testCaseName: 'Existing Customer Checkout Process'
 #- task: OTSTask@2
