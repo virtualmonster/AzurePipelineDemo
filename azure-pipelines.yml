@@ -20,7 +20,7 @@ steps:
     filePath: 'Emeral_API_GuestCheckout/Logical/EmeraldAPIs.scm/React Store.scm/Add To Cart.gts'
     ritEnv: 'Commerce React Store PRIVATE'
     azureServer: 'https://dev.azure.com/stuartwalker0167/OneTestIntegrationDemo'
-    patToken: 't4hgurmort6kzr3c67lgmadief62xub3xslzxojgoygjy63owvsa'
+    patToken: 'ykraurv2rra252sfzvzzr27qgostgpbp2shammt3jsdbxgo7odqa'
     testPlanName: 'TestPlan1'
     testCaseName: 'Existing Customer Checkout Process'
 #- task: OTSTask@2
